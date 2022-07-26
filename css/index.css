@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/images/backcover.svg) ;
+    background-repeat: no-repeat;
+    background-position: right; 
+    background-position-y:top ;
+}
+
+.main-div{
+    width: 1170px;
+    margin: 0px auto;
+}
+
+nav{
+    margin: 30px auto 0px auto;
+     width: 1170px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+    }
+
+    
+    .nav-items{
+      
+       padding: 0px;
+       display: flex;
+       justify-content: space-between;
+      
+    
+    }
+
+    .nav-items h5{
+        margin: 0px;
+    }
+    .nav-items h5 a{
+        padding: 0px 20px;
+        text-decoration: none;
+        color: #252c76;
+        font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 15px;
+    }
+ 
+    .nav-items h5 a:hover{
+        color: #5c64c4;
+    }
+
+.signin-btn{
+    border-radius: 20px;
+ 
+    padding: 5px 15px;
+    outline: none;
+    background: linear-gradient(90deg, rgba(151,93,243,1) 35%, rgba(253,138,220,1) 100%);
+    border :none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.intro-section{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.left-section{
+    margin-top: 150px;
+    width: auto;
+    
+}
+.left-section > h1{
+        color: #3e4794;
+        font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 70px;
+        margin-top: 0px;
+        white-space: nowrap;
+}
+h4 { 
+    color:#797d99;
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 16px;
+    width: 30%;
+    line-height: 30px;
+}
+
+.learn-more-btn{
+    border-radius: 40px;
+    font-size: 26px;
+    padding: 15px 40px;
+    outline: none;
+    background: linear-gradient(90deg, rgba(151,93,243,1) 35%, rgba(253,138,220,1) 100%);
+    border :none;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.imgs-div{
+    position: absolute;
+    right: -78px;
+    top: 15px;
+}
+.vector-img{
+    left: 32px;
+    position: absolute;
+    bottom: 114px;
+}
+
+.vector-dot{
+    left: 97px;
+    position: absolute;
+    bottom: 207px;
+}
